@@ -23,6 +23,9 @@ public class MainActivity extends ActionBarActivity {
     private TestAdapter adapter;
     private PullToRefreshRecyclerView refresh;
 
+    /**
+     * 页面设置，数据加载
+     */
     private int pager=0;
 
     private Handler handler = new Handler() {
