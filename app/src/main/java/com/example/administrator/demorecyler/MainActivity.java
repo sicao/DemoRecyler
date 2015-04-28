@@ -111,8 +111,12 @@ public class MainActivity extends ActionBarActivity {
             }
         });
         MyItemAnimator animator=new MyItemAnimator();
-        animator.setRemoveDuration(500);
-        animator.setAddDuration(500);
+        /**
+         * 动画效果显示不完善
+         */
+        animator.setRemoveDuration(1500);
+        animator.setAddDuration(1500);
+
         recycler.setItemAnimator(animator);
 
     }
