@@ -116,6 +116,7 @@ public class MainActivity extends ActionBarActivity {
          */
         animator.setRemoveDuration(1500);
         animator.setAddDuration(1500);
+
         recycler.setItemAnimator(animator);
 
     }
